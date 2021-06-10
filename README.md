@@ -76,6 +76,9 @@ The script will trigger when you check the box in the "Create Document" column. 
 2) Is the cell named "Document Created" empty
     - if not, it will not run again
     - this is a great way to create a new template, delete the data in the "Dcoument Created" column, and check the box again
+3) The script creates a copy of your template
+    - all properties (including notifications) will be copied over from your template
+4) Then all tagged fields are replaced with the sheet data
 
 
 ### Examples
