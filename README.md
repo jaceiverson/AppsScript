@@ -7,7 +7,8 @@ This takes a Google Spreadsheet of information, and will fill a Google Doc Templ
 
 ### Steps to Create
 1) Create a New Google Doc
-2) All fields that you want to import, need to be enclosed in double pound signs
+    - I reccomend giving your template a view only access so people don't mess it up
+3) All fields that you want to import, need to be enclosed in double pound signs
     -  Example: "##TITLE##"
     -  Note: these tags need to be in the _BODY_ of the doc, not header or footer
     -  Example:
@@ -36,7 +37,7 @@ This takes a Google Spreadsheet of information, and will fill a Google Doc Templ
 
 ![Edit Template ID](https://user-images.githubusercontent.com/47643209/121551770-ea40c200-c9dd-11eb-86b5-7ef81a0fb7c3.png)
 
-8) Set up a trigger on edit
+8) Set up a trigger on edit (important for the automation)
     8a) Navigate Here
     
 ![Trigger](https://user-images.githubusercontent.com/47643209/121549196-a3ea6380-c9db-11eb-9b28-006ecb27121d.png)
@@ -47,7 +48,8 @@ This takes a Google Spreadsheet of information, and will fill a Google Doc Templ
     
 ![Configure Trigger](https://user-images.githubusercontent.com/47643209/121549271-b795ca00-c9db-11eb-891e-08024d2030c3.png)
 
-11) New Document will be created in the same folder as your template. I reccomend giving your template a view only access so people don't mess it up
+9) New Document will be created in the same folder as your template. 
+    - The current date willl be appended to the back of your Doc Name. 
 
 
 ### Completed Sheet and Doc
@@ -76,3 +78,5 @@ The script will trigger when you check the box in the "Create Document" column. 
     - this is a great way to create a new template, delete the data in the "Dcoument Created" column, and check the box again
 
 
+### Examples
+<a href=https://drive.google.com/drive/folders/132YAhUMUEk8uN-9LHwGFCta9ngoOSR-A?usp>Examples Used</a>
