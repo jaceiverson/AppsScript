@@ -3,7 +3,7 @@ function fillTemplate() {
   var sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
 
   // We will use these values a lot
-  var headers = sheet.getRange('A2:2').getValues();
+  var headers = sheet.getRange('A1:1').getValues();
 
   // Declaring row/column values for ease of use
   var row = sheet.getActiveCell().getRow();
@@ -11,11 +11,11 @@ function fillTemplate() {
 
   // Hard Coded Columns 
   // Needed for validation of document creation
-  var checkBox = sheet.getRange(row,headers[0].indexOf("Create Outline")+1)
-  var docCreated = sheet.getRange(row,headers[0].indexOf("Outline Created Date")+1);
-  var newDocLink = sheet.getRange(row,headers[0].indexOf("Outline Link")+1);
+  var checkBox = sheet.getRange(row,headers[0].indexOf("Create Document")+1)
+  var docCreated = sheet.getRange(row,headers[0].indexOf("Document Created")+1);
+  var newDocLink = sheet.getRange(row,headers[0].indexOf("Document Link")+1);
 
-if (checkBox.getValue() === true && column === headers[0].indexOf("Create Outline") + 1 && docCreated.isBlank() === true) {
+if (checkBox.getValue() === true && column === headers[0].indexOf("Create Document") + 1 && docCreated.isBlank() === true) {
 
   //Make a copy of the template file
   var templateId = 'YOUR TEMPLATE ID';
