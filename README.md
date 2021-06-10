@@ -53,6 +53,8 @@ You now can dynamicly add columns and template tags. As long as they match, they
 
 If you aren't seeing the template be filled properly, check that the column name and the tag are exactly the same.
 
+Formating is controlled by the Google Doc, not the sheet, so make sure your format is correct in the template.
+
 
 You now will see your created document with the forms filled in:
 
