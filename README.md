@@ -21,24 +21,27 @@ This takes a Google Spreadsheet of information, and will fill a Google Doc Templ
     - Document Created (Empty - for now)
     - Document Link (Empty - for now)
     - Doc Name (this will be the name of the doc you will be creating)
+5) Ensure that the column headers (row 1) match your template fields
     - Example:
    
 ![Google Sheet Setup](https://user-images.githubusercontent.com/47643209/121547438-1fe3ac00-c9da-11eb-8eb0-02467b01e331.png)
 
 
-6) Ensure that the column headers (row 1) match your template fields
-7) Copy this script into your own script editor
+6) Copy this script into your own script editor
 
 ![Script Editor](https://user-images.githubusercontent.com/47643209/121548834-58d05080-c9db-11eb-8eb6-912c4313e0d9.png)
 
-9) Copy over the custom fields
+7) Copy over the custom fields
   - ID of your template into line __21__ of the script 
-10) Set up a trigger on edit
-    10a) Navigate Here
+
+![Edit Template ID](https://user-images.githubusercontent.com/47643209/121551770-ea40c200-c9dd-11eb-86b5-7ef81a0fb7c3.png)
+
+8) Set up a trigger on edit
+    8a) Navigate Here
     
 ![Trigger](https://user-images.githubusercontent.com/47643209/121549196-a3ea6380-c9db-11eb-9b28-006ecb27121d.png)
 
-   10b) Configure Your Trigger
+   8b) Configure Your Trigger
    
    Note: You can set how often you want to get an update on this script, daily is default
     
